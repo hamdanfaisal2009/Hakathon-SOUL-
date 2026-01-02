@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Libre+Bodoni:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: 'Bricolage Grotesque';
+}
+
+.style:hover{
+    border-bottom:2px solid rgba(146, 146, 146, 0.873);
+}
+
+.sec-1{
+    width: 1240px;
+    height: 668px;
+    background-color: rgb(249, 230, 208);
+}
+
+.btn-1{
+    background-color: rgb(0 , 55, 62);
+    border: none;
+}
+
+.img-1{
+   margin-top:108px;
+}
+    
+.img-2{
+   background-color: rgb(0, 55, 62);
+   padding-top:50px ;
+   padding-left: 50px;
+   padding-right: 50px;
+   
+}
+
+
+
+
+
+
+
+
+
+
