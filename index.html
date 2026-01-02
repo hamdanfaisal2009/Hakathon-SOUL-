@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-   <header class="container bg-white mt-3 rounded-5">
+   <header class="container sticky-top bg-white mt-3 rounded-5">
      <nav class="navbar">
        <ul class="navbar gap-5 ">
         <li class="navbar nav-item fs-5"><a class="nav-link active" href="#home">Home</a></li>
@@ -244,27 +244,89 @@
   <h1 class="fw-bold pb-4">We’re Here to <br> Support You</h1>
   <p class="pb-4 fw-medium fs-5">Whether you have questions, need help getting <br> started, or want to learn more — reach out anytime.</p>
 </div>
- </footer><br><br><br><br><br><br>
+ </footer><br><br>
 
- <footer class="container border rounded-5 py-5 px-5 d-flex" style="width: 1240px; height: 627px;">
+ <footer class="container border rounded-5 mb-5 py-5 px-5 d-flex" style="width: 1240px; height: 627px;">
   <div>
    <h2 class="fw-bold pb-3">Contact Details</h2>
    <div class="d-flex">
    <h4 class="pb-3 fs-3 fw-medium">Email:</h4><p class="pb-3 fw-normal fs-5 mt-1">support@solus.com</p></div>
-   <div><h3 class="pb-3 fs-3 fw-medium">Phone:</h3><p class="pb-3 fw-normal fs-5 mt-1">+1 (555) 123-4567</p></div>
-    <div><h3 class="pb-3 fs-3 fw-medium">Address:</h3><p class="pb-3 fw-normal fs-5 mt-1"> 123 Wellness Way, Calm City, CA 90210</p></div>
+   <div class="d-flex"><h3 class="pb-3 fs-3 fw-medium">Phone:</h3><p class="pb-3 fw-normal fs-5 mt-1">+1 (555) 123-4567</p></div>
+    <div class="d-flex"><h3 class="pb-3 fs-3 fw-medium">Address:</h3><p class="pb-3 fw-normal me-1 fs-5 mt-1"> 123 Wellness Way, Calm City, CA 90210</p></div>
+    <p class="fs-4 fw-medium  tagline">We typically respond within 12 hours.</p>
   </div>
-  <div class="ms-auto me-auto">
-    <h1 class="">Send Us A Message </h1>
-    <div class="px-5">
-     <label for="name" class="fs-4 mb-3">Name</label>
-    <div class="container pt-2">
-     <input type="text" id="name" name="Name" placeholder="Please Enter your name" size="50" maxlength="10" class="name py-4 px-4">
+  <div class=" ms-auto me-auto">
+    <h1 class="mb-4 ps-5">Send Us A Message </h1>
+    <div class="bg-light rounded-5 px-4">
+     <label for="name" class="fs-4 mt-5 mb-3">Email:</label>
+    <div class="container rounded-4 ">
+     <input type="text" id="name" name="Name" placeholder="Please Enter your Email" size="50" maxlength="10" class="rounded-4 name py-4 px-4">
+    </div>
+  <div class="pt-2 mt-2">
+     <label for="name" class="fs-4 mb-3">Message</label>
+    <div class="container py-4 ">
+      <input type="text" id="name" name="Message" placeholder="Message*" size="70" maxlength="10" class="py-3 px-4 rounded-4 ">
     </div>
   </div>
- </footer>
-  
+   <button type="button" class="sms-btn fs-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Send message
+</button>
 
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Reciever Message!</h1>
+      </div>
+      <div class="modal-body">
+        Thank you for Contacting Us <br> & Your Message is Received
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+ 
+  </div>
+ </footer><br><br><br><br>  
+
+
+ <footer class="container d-flex justify-content-between mb-5 pb-5">
+<div class="card rounded-5 d-flex justify-content-between py-5 px-5 bg-light text-dark" style="width:570px; height: 460px;">
+<h1 class="mb-5 d-inline">Solus</h1>
+<div class="d-inline d-flex gap-5">
+<p>About</p>
+<p>Services</p>
+<p>Therapist</p>
+<p>Resources</p>
+<p>Contact</p>
+</div>
+<div class="d-inline d-flex gap-5">
+  <p>Instagram</p>
+  <p>Facebook</p>
+  <p>YouTube</p>
+  <p>Likedin</p>
+</div>
+<div class="d-inline d-flex gap-5">
+  <p>Terms of Use</p>
+  <p>Privacy Policy</p>
+</div> 
+
+<div class="pt-5 text-secondary-subtle">
+  © [2035] Solus. All rights reserved.
+</div>
+</div>
+<div class="card c-1 rounded-5">
+<div class="  d-flex flex-row justify-content-between py-5 px-5 text-dark" >
+  <h1>Find <br> Support,<br> Guidance,<br> and Balance.</h1>
+  <img src="/illuatration_7.png" height="244px" width="228px" class="img-7" alt="">
+</div>
+<button class="btn-2 text-white fs-4 py-2 px-3 rounded-5 mb-3 d-inline ">Find Support Now</button>
+</div>
+</footer>
 
 
 
