@@ -5,55 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M-1 Hakathon</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
    <header class="container sticky-top bg-white mt-3 rounded-5">
-     <nav class="navbar">
-       <ul class="navbar gap-5 ">
-        <li class="navbar nav-item fs-5"><a class="nav-link active" href="#home">Home</a></li>
-        <li class="navbar nav-item fs-5"><a class="nav-link" href="#about">About Us</a></li>
-        <li class="navbar nav-item fs-5"><a class="nav-link" href="#services">Services</a></li>
-       </ul>
-       <h1 class="navbar-brand fw-bold fs-1 ">Solus</h1>
-        <ul class="navbar gap-5 ">
-        <li class="navbar nav-item fs-5"><a class="nav-link" href="#home">Therapists</a></li>
-        <li class="navbar nav-item fs-5"><a class="nav-link" href="#about">Resources</a></li>
-        <li class="navbar nav-item fs-5"><a class="nav-link" href="#services">Contact</a></li>
-       </ul>
-     </nav>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto gap-3">
+                    <li class="nav-item"><a href="#" class="nav-link text-black">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-black">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-black">Services</a></li>
+                </ul>
+
+                <a href="#" class="ms-auto nav-link"><h1 class="navbar-brand fw-bolder fs-3">SOLUS</h1></a>
+
+                <ul class="navbar-nav mx-auto gap-3">
+                    <li class="nav-item"><a href="#" class="nav-link text-black">Therapists</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-black">Resources</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-black">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     </header>
 
 
 
     <section class="container sec-1 rounded-5 ms-auto me-auto ">
        <div class=" position-relative d-flex align-items-start justify-content-evenly">
-         <img src="/Illustration_2.png" class="img-1 position-absolute start-0 rounded-5" alt=""> 
+         <img src="/images/Illustration_2.png" class="img-1 position-absolute start-0 rounded-5" alt=""> 
          
-         <img src="/Illustration_1.png" class="img-3 position-absolute end-0 rounded-5 " alt="">
+         <img src="/images/Illustration_1.png" class="img-3 position-absolute end-0 rounded-5 " alt="">
         </div>
         <div class="d-flex justify-content-center flex-column text-center align-items-center gap-4 pt-5 mt-5">
           <h1 class="fw-bold fs-1 ">Support for your <br>Mental Well being</h1>
           <p>Connect with licensed therapists, counselors,<br> and wellness coaches to support your journey.</p>
-          <button class="btn-1 text-white fs-4 py-2 px-2 rounded-4">Get Started</button>
+          <button class="btn- btn-1 text-white fs-4 py-2 px-2 rounded-4">Get Started</button>
         </div>
     </section>
 <br><br><br><br><br>
 
-    <section class="container  d-flex justify-content-between">
-      <div class="d-inline fw-bold ms-5 rounded py-1 px-2 ">
-        <p class="pb-5 ">How It Works</p>
-        <h1 class="fw-bolder pb-5">We Help You <br> Prioritize Your <br> Mental Health</h1>
-        <p class="fs-6 fw-bold">Browse therapists, book a session, and <br> start your healing journey with trusted <br> professionals.</p>
-        <button class="btn-1 text-white fs-4 py-2 px-5 rounded-5 ">Find a Therapist</button>
+     <section class="container">
+      <div class="row">
+        <div class="col-xl-6 text mt-5 pt-5 me-auto gap-2 fw-bold rounded  py-1 px-2 ">
+          <p class="">How It Works</p>
+          <h1 class="fw-bolder pb-5">We Help You Prioritize Your Mental Health</h1>
+          <p class="fs-6 fw-bold">Browse therapists, book a session, and start your healing journey with trusted professionals.</p>
+          <button class="btn- btn-1 text-white fs-4 py-2 px-5 rounded-5 ">Find a Therapist</button>
+        </div>
+        
+        <div class="img-2 col-xl-4 rounded-5 d-inline me-5">
+          <img src="/images/Illustration_3.png" alt="">
+        </div>
       </div>
-     
-       <div class="img-2 rounded-5 d-inline me-5">
-        <img src="/Illustration_3.png" alt="">
-       </div>
     </section>
     <br><br><br><br><br><br><br><br>
   
@@ -65,36 +73,36 @@
       </div>
     </section><br><br><br><br>
 
-    <section class="c-sec container gap-4 d-flex row-md ms-auto me-auto">
-<div class="c-con col-lg-6 d-flex flex-row" style="height: 400px;">
+    <section class="c-sec container gap-4 d-flex ms-auto me-auto">
+<div class="c-con col-lg-6 d-flex flex-row" >
    <div class="card-h mt-5 ms-5">
-    <h1>Mindfulness & <br> Meditation</h1>
-    <p class="fs-5  fw-medium pt-5">Guide meditation sessions <br> and stress management <br> techniques</p>
-    <button class="text btn fs-3 border border-dark rounded-5 px-5 py-2 ">Learn more</button>
+    <h1>Mindfulness & Meditation</h1>
+    <p class="fs-5  fw-medium pt-5">Guide meditation sessions and stress management techniques</p>
+    <button class="btn- btn1 fs-5 border border-dark rounded-5 px-4 py-2 mt-5 mb-3">Learn more</button>
    </div>
    <div>
-     <img src="/illustration_10.png" class="img-4 py-4 ms-5" style="width: 250px;" alt="...">
+     <img src="/images/illustration_10.png" class="img-4 py-5 pe-3 ms-5" style="width: 250px;" alt="...">
    </div>
 </div>
 
-<div class="c-con bg-white border border-dark col-lg-6 d-flex flex-row" style="height: 400px;">
+<div class="c-con bg-white border border-dark col-lg-6 d-flex flex-row" style="height: 450px;">
     <div class="card-h mt-5 ms-5">
       <h1>One-on-One <br> Therapy </h1>
       <p class="fs-5  fw-medium pt-5">Virtual and in-person <br> therapy sessions for mental <br> health support</p>
-      <button class="text btn fs-3 border border-dark rounded-5 px-5 py-2 ">Learn more</button>
+      <button class="btn- btn1 fs-5 border border-dark rounded-5 px-4 py-2 mb-3">Learn more</button>
     </div>
 </div>
     </section>
 
     <section class="container d-flex bg-white border border-dark rounded-5 mt-5 mb-5">
-      <div class="mt-5 ms-5 mb-5">
+      <div class=" mt-5 ms-5 mb-5">
         <h1 class="mb-4 ">Wellness Coaching</h1>
         <p class="mb-4 fw-medium">Personalized guidance to help you build healthier habits,<br> manage stress, and achieve balance in all areas of your life.</p>
         <p class="mb-4 fw-medium">Our wellness coaches support you in creating sustainable <br> routines for mental, emotional, and physical well-being.</p>
-        <button class="btn-1 text-white fs-4 py-2 px-5 rounded-5 mb-3">Lean more</button>
+        <button class="btn- btn-1 text-white fs-4 py-2 px-5 rounded-5 mb-3">Lean more</button>
       </div>
       <div class=" img-5 ms-auto">
-        <img src="/illustration_6.png" class="rounded-5" alt="">
+        <img src="/images/illustration_6.png" class="rounded-5" alt="">
       </div>
     </section><br><br><br><br><br>
 
@@ -105,8 +113,8 @@
       <p class="mb-4">Positive experiences from users who have <br> benefited from therapy or wellness <br> programs.  </p>
       <br>
       <div class="gap-4 d-flex ">
-        <img src="/image.png" class="border border-dark round" style="width: 54px; height: 54px;" alt="">
-        <img src="/image copy.png" style="width: 54px; height: 54px;" alt="">
+        <img src="/images/image.png" class="border btn- border-dark round" style="width: 54px; height: 54px;" alt="">
+        <img src="/images/image copy.png" class="btn- rounded-5" style="width: 54px; height: 54px;" alt="">
       </div>
     </div>
 
@@ -124,15 +132,16 @@
     <br><br><br><br><br><br><br><br>
 
 <section class="container border border-dark bg-white rounded-5 d-flex  pt-5 pb-4 ps-5">
-  <div>
+
+  <div class="ms-5">
     <h4 class="d-inline">Our Partners</h4>
   </div>
     <div class="d-inline d-flex gap-5 ms-5">
-    <img src="/wealth simple logo.png" class="lg-1" alt="">
-    <img src="/notion logo.png" class="lg-2" alt="">
-    <img src="/mediu  logo.png" class=" mt-2 lg-3" alt="">
-    <img src="/braze logo.png" class="lg-4" alt="">
-    <img src="/sonos logo.png" class=" mt-2 lg-5" alt="">
+    <img src="/images/wealth simple logo.png" class="lg-1" alt="">
+    <img src="/images/notion logo.png" class="lg-2" alt="">
+    <img src="/images/mediu  logo.png" class=" mt-2 lg-3" alt="">
+    <img src="/images/braze logo.png" class="lg-4" alt="">
+    <img src="/images/sonos logo.png" class=" mt-2 lg-5" alt="">
   </div>
   </div>
 </section><br><br><br><br><br>
@@ -147,19 +156,19 @@
   <div class=" text-center border rounded-5" style="width:387px;">
     <h3 class="pt-5 pb-4" >Articles & <br> Guides</h3>
     <p class="pb-4">Practical tips on stress <br> management, mindfulness, and <br> emotional resilience.</p>
-    <button class="btn bg-warning mb-3 py-2 px-5 fs-4 rounded-5">Explore</button>
+    <button class="btn- bg-warning mb-3 py-2 px-5 fs-4 rounded-5">Explore</button>
   </div>
 
    <div class=" text-center border rounded-5" style="width:387px;">
     <h3 class="pt-5 pb-4" >Meditation & <br> Relaxation</h3>
     <p class="pb-4">Audio sessions for guided <br> meditation and deep breathing <br> exercises.</p>
-    <button class="btn bg-info-subtle mb-3 py-2 px-5 fs-4 rounded-5">Explore</button>
+    <button class="btn- bg-info-subtle mb-3 py-2 px-5 fs-4 rounded-5">Explore</button>
   </div>
 
    <div class=" text-center border rounded-5" style="width:387px;">
     <h3 class="pt-5 pb-4" >Webnars & <br>Workshop </h3>
     <p class="pb-4">Live and recorded sessions with <br> mental health professionals.</p>
-    <button class="btn bg-danger-subtle py-2 px-5 fs-4 rounded-5">Explore</button>
+    <button class="btn- bg-danger-subtle py-2 px-5 fs-4 rounded-5">Explore</button>
   </div>
 </div>
 </section> <br><br><br><br><br>
@@ -169,74 +178,35 @@
         <p class="fw-bolder pb-4">COMMUNITY</p>
         <h1 class="mb-5 fw-bold ">You’re Not Alone <br> on This Journey</h1>
         <p class="mb-5 fw-medium">Connect with others, share experiences, <br> and find encouragement in a safe,<br> supportive space.</p>
-        <button class="btn-1 text-white fs-4 py-2 px-5 rounded-5 mb-3">Join The Community</button>
+        <button class="btn- btn-1 text-white fs-4 py-2 px-5 rounded-5 mb-3">Join The Community</button>
       </div>
       <div class=" img-5 mt-5 pt-1 ms-auto">
-        <img src="/illustration_11.png" class="rounded-5" alt="">
+        <img src="/images/illustration_11.png" class="rounded-5" alt="">
       </div>
- </section><br><br><br><br><br>
+ </section><br><br><br><br><br>-5
 
- <section class="container d-flex justify-content-between mb-5 pb-5">
-<div>
-  <div class="">
-    <p class="fw-bolder pb-4">NEEED HELP?</p>
-    <h1 class="mb-5 fw-bold">Frequently <br> Asked Questions</h1>
-    <p class="mb-5 fw-medium">Find answers to common questions about <br> our services, therapy, and mental well- <br> being.</p>
-  </div><br><br><br><br><br>
-  <div style="width:600px; height: 385px;">
-    <img src="/illustration_4.png" style="width:385px ; height: 574px;" class="bg-danger-subtle px-3 py-3 rounded-5" alt="">
-  </div>
-</div>
-
-<div>
-<div class="consult2 border border-dark container">
-  <div class="d-2 d-flex px-3 py-4">
-  <h3 class="ps-2 mt-4">How do I book a therapy session?</h3>
-  <div class="ms-auto">
-    <img src="/plus icon.png" class=" bg-light img-fluid mt-3 py-2 px-3 rounded-5"  style="width: 18pxpx;" alt="">
-  </div>
-</div>
-</div><br>
-
-<div class="consult2 border border-dark container">
-  <div class="d-2 d-flex px-3 py-4">
-  <h3 class="ps-2 mt-4">Are online sessions available?</h3>
-  <div class="ms-auto">
-    <img src="/plus icon.png" class=" bg-light img-fluid mt-3 py-2 px-3 rounded-5"  style="width: 18pxpx;" alt="">
-  </div>
-</div>
-</div><br>
-
-<div class="consult2 border border-dark container">
-  <div class="d-2 d-flex px-3 py-4">
-  <h3 class="ps-2 mt-4">What’s the difference between therapy and <br> coaching?</h3>
-  <div class="ms-auto">
-    <img src="/plus icon.png" class=" bg-light img-fluid mt-3 py-2 px-3 rounded-5"  style="width: 18pxpx;" alt="">
-  </div>
-</div>
-</div><br>
-
-<div class="consult2 border border-dark container">
-  <div class="d-2 d-flex px-3 py-4">
-  <h3 class="ps-2 mt-4">Do I need a subscription to access services?</h3>
-  <div class="ms-auto">
-    <img src="/plus icon.png" class=" bg-light img-fluid mt-3 py-2 px-3 rounded-5"  style="width: 18pxpx;" alt="">
-  </div>
-</div>
-</div><br>
-
-<div class="consult2 border border-dark container">
-  <div class="d-2 d-flex px-3 py-4">
-  <h3 class="ps-2 mt-4">Can I switch therapists if I don’t feel the right <br> connection?</h3>
-  <div class="ms-auto">
-    <img src="/plus icon.png" class=" bg-light img-fluid mt-3 py-2 px-3 rounded-5"  style="width: 18pxpx;" alt="">
-  </div>
-</div>
-</div><br>
-
-
-</div>
- </section><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <section class="mb-5 pb container">
+        <div class="">
+            <p class="fw-light">NEED HELP?</p>
+            <h1 class="fw-bolder">Frequently asked question</h1>
+            <br>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <h5>Find answers to common questions about our services, therapy, and mental well-being.</h5>
+                <div class="bg-danger-subtle d-flex justify-content-center xtra rounded-5"><img src="./Images/illustration_4.png"></div>
+            </div>
+            <div class="col-lg-6 d-flex flex-column gap-5 text-center">
+                <div class="d-flex bg-light pt-4 px-3 rounded-5"><h6>How do I book a therapy session?</h6><h3 class="pb-2 pe-2 ms-auto">+</h3></div>
+                <div class="d-flex bg-light pt-4 px-3 rounded-5"><h6>Are online sessions available?</h6><h3 class="pb-2 pe-2 ms-auto">+</h3></div>
+                <div class="d-flex bg-light pt-4 px-3 rounded-5"><h6>What’s the difference between therapy and coaching?</h6><h3 class="pb-2 pe-2 ms-auto">+</h3></div>
+                <div class="d-flex bg-light pt-4 px-3 rounded-5"><h6>Do I need a subscription to access services?</h6><h3 class="pb-2 pe-2 ms-auto">+</h3></div>
+                <div class="d-flex bg-light pt-4 px-3 rounded-5"><h6>Can I switch therapists if I don’t feel the right connection?</h6><h3 class="pb-2 pe-2 ms-auto">+</h3></div>
+                <div class="d-flex bg-light pt-4 px-3 rounded-5"><h6>Is my information and session history kept confidential?</h6><h3 class="pb-2 pe-2 ms-auto">+</h3></div>
+            </div>
+        </div>
+    </section>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
 
  <footer class="container text-center pb-5">
 <div>
@@ -268,7 +238,7 @@
       <input type="text" id="name" name="Message" placeholder="Message*" size="70" maxlength="10" class="py-3 px-4 rounded-4 ">
     </div>
   </div>
-   <button type="button" class="sms-btn fs-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+   <button type="button" class="btn- sms-btn fs-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
   Send message
 </button>
 
@@ -319,12 +289,12 @@
   © [2035] Solus. All rights reserved.
 </div>
 </div>
-<div class="card c-1 rounded-5">
-<div class="  d-flex flex-row justify-content-between py-5 px-5 text-dark" >
-  <h1>Find <br> Support,<br> Guidance,<br> and Balance.</h1>
-  <img src="/illuatration_7.png" height="244px" width="228px" class="img-7" alt="">
+<div class="card-2 c-1 rounded-5">
+<div class="d-flex py-5 px-5 text-dark" >
+  <h1 class="text-white" >Find <br> Support,<br> Guidance,<br> and Balance.</h1>
+  <img src="/images/illuatration_7.png" height="244px" width="228px" class="img-7" alt="">
 </div>
-<button class="btn-2 text-white fs-4 py-2 px-3 rounded-5 mb-3 d-inline ">Find Support Now</button>
+<button class="btn- btn-3 fs-4 rounded-5 mb-3">Find Support Now</button>
 </div>
 </footer>
 

@@ -1,12 +1,13 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Bricolage Grotesque' , sans-serif;
+ 
 }
 
 body{
-  font-family: 'Bricolage Grotesque' , sans-serif;
   background-color: rgb(170, 170, 170);
 }
 
@@ -18,6 +19,27 @@ body{
     width: 1240px;
     height: 668px;
     background-color: rgb(249, 230, 208);
+}
+
+.nav-item{
+    font-size: large;
+}
+
+.nav-item:hover{
+     border-bottom: 1px solid rgb(47, 51, 51);
+}
+
+.btn-:hover{
+     box-shadow: 0 5px 30px rgba(0, 0, 0, 0.438);
+     transform: scale(1.05);
+}
+
+.btn1{
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-{
+    transition: all 0.2s ease-in ;
 }
 
 .btn-1{
@@ -121,7 +143,7 @@ body{
 }
 
 .tagline{
-    margin-top: 240px;
+    margin-top: 200px;
 }
 
 .img-7{
@@ -137,8 +159,29 @@ body{
     background-color: rgb(0 , 55, 62);
 }
 
+.card-2{
+    background-color: rgb(0 , 55, 62);
+    color: white;
+}
 
+.btn-3{
+    margin-left: 120px;
+    background-color:   rgb(255, 255, 255);
+    border: none;
+    padding: 10px 50px;
+}
 
+.xtra{
+    height: 50vh;
+    position: relative;
+    margin-top: 20vh;
+}
+
+.xtra img{
+    height: 120%;
+    position:absolute;
+    bottom: 0;
+}
 
 
 
